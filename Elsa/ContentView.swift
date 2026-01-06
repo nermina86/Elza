@@ -1,6 +1,5 @@
-//Copyright © 2026 by Nermina Memišević
-//All rights reserved. No part of this work may be reproduced,
-//distributed, or transmitted in any form or by any means 
+//Copyright © 2026 by Nermina Memisevic
+//All rights reserved. No part of this work may be //reproduced, distributed, or transmitted in any form or by any means
 
 import SwiftUI
 import UniformTypeIdentifiers
@@ -87,7 +86,6 @@ final class DressUpViewModel: ObservableObject {
             .init(name: "shoes1",  category: .shoes),
             .init(name: "shoes2",  category: .shoes),
             .init(name: "shoes3",  category: .shoes),
-            .init(name: "acc",    category: .accessory),
             .init(name: "acc1",    category: .accessory),
             .init(name: "acc2",    category: .accessory),
             .init(name: "acc3",    category: .accessory),
@@ -197,7 +195,7 @@ struct ContentView: View {
         NavigationView {
             VStack(spacing: 0) {
                 AppHeader(
-                    title: "DressUp",
+                    title: "Elza DressUp",
                     iconSystemName: "tshirt",
                     onReset: { vm.reset() },
                     onRandom: { vm.randomize() },
